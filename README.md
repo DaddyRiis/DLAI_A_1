@@ -12,5 +12,7 @@ We added a couple of hyperparameters in order to finetune the models capabilitie
  - Learning rate
       - The size of the steps used in the stochastic gradiant descent. Too large steps can results in a too quick convergence, whereas a too small stepsize could results in taking too long to converge. Both could create a suboptimal solution. 
  - Hidden layers
-      - Nodes that have the ability to remember the results of previous calculations. Using those stored “memories,” the neural network can then predict the current input based on past results. The deeper and more complicated the problem the RNN has to solve, more layers can help optimize and improve the model, but adding to many can overcomplicate and reduce performance. 
+      - Nodes that have the ability to remember the results of previous calculations. Using those stored “memories,” the neural network can then predict the current input based on past results. The deeper and more complicated the problem the RNN has to solve, more layers can help optimize and improve the model, but adding to many can overcomplicate and reduce performance.
+
+We ended up choosing 2 hidden layer, 50 epochs and a learning rate 0,001 be iteratively evaluating the model by plotting the models predictions against the actual prices. Our model with the above setttings, generally underestimates the prices, where a single instance it overestimates the prices. 
 
