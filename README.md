@@ -8,7 +8,7 @@ To train the RNN we split the data into a train-test split.
 
 We added a couple of hyperparameters in order to finetune the models capabilities: 
  - Epochs
-      - Number of iterations of a sample going through stochastic gradiant descent
+      - Number of iterations of a sample going through algorithm.
  - Learning rate
       - The size of the steps used in the stochastic gradiant descent. Too large steps can results in a too quick convergence, whereas a too small stepsize could results in taking too long to converge. Both could create a suboptimal solution. 
  - Hidden layers
